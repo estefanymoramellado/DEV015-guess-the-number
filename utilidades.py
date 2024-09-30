@@ -8,11 +8,9 @@ comparar números y preguntar al jugador si desea jugar de nuevo.
 
 import random
 
-# Función para mostrar la introducción del juego
 def intro():
     """Muestra la introducción del juego."""
     print(" " * 10,"¡Adivina el número!", " " * 10)
-# Función para obtener el número aleatorio
 def obtener_numero_aleatorio():
     """Devuelve un número aleatorio entre 1 y 5.
     
@@ -21,7 +19,6 @@ def obtener_numero_aleatorio():
     """
     return random.randint(1, 5)
 
-# Función para comparar el número con el número aleatorio
 def compara_numeros(numero_aleatorio, numero_intentado):
     """Compara el número intentado con el número aleatorio.
     
@@ -39,7 +36,6 @@ def compara_numeros(numero_aleatorio, numero_intentado):
         return "GRANDE"
     return "IGUAL"
 
-# Función para preguntar si la jugadora quiere jugar de nuevo
 def jugar_de_nuevo():
     """Pregunta a la jugadora si desea jugar de nuevo.
     

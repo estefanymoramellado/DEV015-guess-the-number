@@ -10,7 +10,6 @@ Funciones:
 """
 import random
 
-# Función para gestionar el turno de la jugadora
 def turno_jugadora():
     """Solicita al usuario que ingrese un número del 1 al 100.
 
@@ -24,7 +23,6 @@ def turno_jugadora():
         except ValueError:
             print("Por favor, introduce un número válido.")
 
-# Función para gestionar el turno del ordenador
 def turno_ordenador(low, high):
     """Genera un número aleatorio para el turno del ordenador.
 

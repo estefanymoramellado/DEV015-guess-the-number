@@ -24,7 +24,6 @@ def juega():
     numero_aleatorio = obtener_numero_aleatorio()
 
     while True:
-        # Turno de la jugadora
         print("Es tu turno:")
         num_usuario = turno_jugadora()
         intentos += 1
@@ -41,7 +40,6 @@ def juega():
                 f"en {intentos} intentos."
             )
             break
-        # Turno del ordenador
         print("Es el turno del ordenador:")
         num_ordenador = turno_ordenador(low, high)
         print(f"El ordenador adivina: {num_ordenador}")

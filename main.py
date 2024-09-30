@@ -14,13 +14,12 @@ def main():
     Esta función se encarga de ejecutar la introducción del juego y 
     gestionar el bucle principal que permite jugar varias veces.
     """
-    intro()  # Mostrar la introducción del juego
-    # Bucle principal para permitir jugar varias veces
+    intro()  
     while True:
-        juega()  # Iniciar un nuevo juego
-        if not jugar_de_nuevo():  # Preguntar si el jugador quiere jugar de nuevo
+        juega()  
+        if not jugar_de_nuevo():
             print("Gracias por jugar. ¡Hasta luego!")
-            break  # Salir del bucle si el jugador no desea continuar
+            break 
 
 if __name__ == '__main__':
-    main()  # Ejecutar la función principal
+    main()
