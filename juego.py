@@ -1,5 +1,4 @@
-"""Módulo del juego de adivinanza de números.
-
+"""
 Este módulo contiene la lógica del juego en el que un jugador y
 un ordenador intentan adivinar un número
 generado aleatoriamente. 
