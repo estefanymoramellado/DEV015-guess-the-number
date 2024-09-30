@@ -1,6 +1,4 @@
 """
-turnos.py
-
 Este módulo contiene las funciones para gestionar los turnos del juego,
 incluyendo el turno de la jugadora y el turno del ordenador.
 

@@ -1,6 +1,4 @@
 """
-utilidades.py
-
 Este módulo contiene funciones auxiliares para el juego de adivinar números.
 Incluye funciones para mostrar la introducción del juego, obtener un número aleatorio,
 comparar números y preguntar al jugador si desea jugar de nuevo.
